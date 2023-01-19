@@ -1,4 +1,5 @@
 import React from 'react';
+import IconText from '../../components/IconText/IconText';
 import './HomePage.css'
 
 function HomePage () {
@@ -11,23 +12,33 @@ function HomePage () {
 
                 <div className='logo-container'>
                     <img src='icon-logo.svg' alt='logo icon'/>
-                    <h1>Focus</h1>
+                    <div>Focus</div>
                 </div>
 
                 <div className='seller'>
                     <div className='slogan'>
-                        <p></p>
-                        <p></p>
+                        <p>Learn without the distractions</p>
+                        <p>a chrome extension for YouTube™</p>
                     </div>
                     <div className='features'>
-                        <div></div>
-                        <div className='divider'></div>
-                        <div></div>
+                        <div className='feature-list'>
+                            <IconText iconPath='blur-icon.svg'> Recommendation Blur </IconText >
+                            <IconText iconPath='greyscale-icon.svg'> Thumbnail Greyscale</ IconText>
+                            <IconText iconPath='brightness-icon.svg'> Brightness </ IconText>
+                            <IconText iconPath='sepia-icon.svg'> Sepia </ IconText>
+                        </div>
+                        <div className='divider'/>
+                        <div className='feature-list right'>
+                            <IconText>Distraction Free HomePage</IconText>
+                            <IconText>Hide Comments</IconText>
+                            <IconText>Hide Recommendations</IconText>
+                            <IconText>Lowercase Titles</IconText>
+                        </div>
                     </div>
-                    <a>
+                    <a href='https://github.com/neezacoto/portfolio-website/tree/main/website/src'>
                         <div className='download-button'>
-                            <img />
-                            <p></p>
+                            <img src='chrome-icon.png' alt='chrome-icon'/>
+                            <div>start learning</div>
                         </div>
                     </a>
                 </div>

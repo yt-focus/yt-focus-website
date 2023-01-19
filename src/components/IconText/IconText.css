@@ -1,0 +1,16 @@
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    max-height: 50px;
+    gap: 1em;
+}
+
+.feature-text {
+    font-size: 1.2rem;
+}
+
+.icon-holder {
+    height: 40px;
+    max-height: 40px;
+    font-size: 1em;
+}
