@@ -1,8 +1,9 @@
 import './App.css';
+import HomePage from './pages/HomePage/HomePage';
 
 function App() {
   return (
-    <div>hello YT Focus</div>
+    <HomePage />
   );
 }
 
