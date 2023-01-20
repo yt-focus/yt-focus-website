@@ -20,11 +20,10 @@ function Help () {
                     Greyscales all thumbnails on the website. This does not affect the videoplayer when watching videos.
                 </IconDesc>
                 <IconDesc icon='brightness-icon.svg' title='Brightness'>
-                    Changes everything on the page
-                    excluding the sidebar and top search bar. (affects videoplayer)
+                    Shifts the brightness of a video
                 </IconDesc>
                 <IconDesc icon='sepia-icon.svg' title='Sepia'>
-                    Filters the page to a redish hue to combat blue-light. (affects videoplayer)
+                    Colors the video in a reddish hue for ease on the eyes
                 </IconDesc>
                 <IconDesc  title='Focus Homepage'>
                     Removes all distractions from YouTube homepage only leaving the top search bar without the notification bell.
