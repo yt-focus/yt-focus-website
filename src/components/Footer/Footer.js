@@ -9,6 +9,7 @@ function Footer () {
             <Link to="/privacy">Privacy</Link>
             <Link to="/help">Help</Link>
             <a href='https://github.com/yt-focus/yt-focus'> Github</a>
+            <p className='copyright'>Copyright © {new Date().getFullYear()} YT Focus. All rights reserved.</p>
         </div>  
     );
 }

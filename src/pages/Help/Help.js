@@ -9,6 +9,9 @@ function Help () {
         <Cover>
             <div className='description-list'>
                 <Back />
+                <IconDesc  title='Bugs'>
+                    In case of any visual glitches, or functions not working: refresh the page or turn on and off the toggle button on the top right. This is due to how Youtube may load, or may happen first time you're injecting the code into your browser.
+                </IconDesc>
                 <IconDesc icon='blur-icon.svg' title='Blur Recommendations'>
                     This blurs the thumbnails of the recommendation section when watching a video.
                     This also blurs recommendations at the end of a video.

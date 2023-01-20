@@ -1,9 +1,8 @@
 .footer {
     display: flex;
     position: absolute;
-    text-decoration: underline;
     bottom: 2rem;
-    left: 2rem;
+    right: 2rem;
     gap: 1rem;
     opacity: .3;
     font-size: 1.1rem;
@@ -11,6 +10,11 @@
     transition: 250ms;
     padding: 1rem;
 }
+
+.footer a {
+    text-decoration: underline;
+}
+
 
 .footer:hover {
     background-color: var(--black);
