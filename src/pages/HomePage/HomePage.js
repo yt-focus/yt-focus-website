@@ -1,12 +1,12 @@
 import React from 'react';
+import Cover from '../../components/Cover/Cover';
 import IconText from '../../components/IconText/IconText';
+import Showcase from '../../components/showcase/Showcase';
 import './HomePage.css'
 
 function HomePage () {
     return (
-
-        <div className='main'>
-            <div className='cover' />
+        <Cover>
                 <div className='contents'>
 
                         <div className='seller'>
@@ -43,18 +43,8 @@ function HomePage () {
                         </div>
                     </div>
                 </div>
-                        <div className='showcase'>
-                            <a href='https://github.com/yt-focus/yt-focus'>
-                                <img src='showcase.png' alt='app showcase'/>
-                            </a>
-                        </div>
-            <div className='footer'>
-                <a href='https://github.com/yt-focus/yt-focus'> Donate</a>
-                <a href='https://github.com/yt-focus/yt-focus'> Help</a>
-                <a href='https://github.com/yt-focus/yt-focus'> Github</a>
-                
-            </div>
-        </div>
+                <Showcase />
+        </Cover>
     );
 }
 

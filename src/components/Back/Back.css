@@ -1,0 +1,23 @@
+.back {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: .5rem;
+    opacity: .5;
+    transition: opacity 250ms, transform 250ms;
+}
+
+.back div {
+    
+    color: var(--secondary);
+    font-size: 1.3rem;
+}
+
+.back img {
+    max-height: 1rem;
+}
+
+.back:hover {
+    opacity: 1;
+    transform: scale(1.01);
+}

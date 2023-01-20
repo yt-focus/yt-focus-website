@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    position: absolute;
+    text-decoration: underline;
+    bottom: 2rem;
+    left: 2rem;
+    gap: 1rem;
+    opacity: .3;
+    font-size: 1.1rem;
+    z-index: 999;
+}
