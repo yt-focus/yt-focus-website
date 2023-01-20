@@ -10,7 +10,10 @@ function Help () {
             <div className='description-list'>
                 <Back />
                 <IconDesc  title='Known Issues'>
-                    In case of any visual glitches, or functions not working: refresh the page or turn on and off the toggle button on the top right. This is due to how Youtube may load, or may happen first time you're injecting the code into your browser.
+                    In case of any visual glitches, or functions not working: refresh the page or turn on and off the toggle button on the top right. This is due to how Youtube may load during your first use.
+                </IconDesc>
+                <IconDesc  title='Feedback & Reporting Bugs'>
+                    You can leave feedback and report bugs on our github page. This project is open source so you are open to contribute your own changes!
                 </IconDesc>
                 <IconDesc icon='blur-icon.svg' title='Blur Recommendations'>
                     This blurs the thumbnails of the recommendation section when watching a video.
