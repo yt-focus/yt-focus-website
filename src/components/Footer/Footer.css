@@ -8,4 +8,12 @@
     opacity: .3;
     font-size: 1.1rem;
     z-index: 999;
+    transition: 250ms;
+    padding: 1rem;
+}
+
+.footer:hover {
+    background-color: var(--black);
+    opacity: 1;
+    
 }

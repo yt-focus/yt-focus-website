@@ -14,7 +14,7 @@ a {
     background-size: cover;
     overflow-x: hidden;
     min-width: 720px;
-
+    min-height: 800px;
 }
 
 .cover {
@@ -25,7 +25,8 @@ a {
     /* https://bennettfeely.com/clippy/ <- love this */
     clip-path: polygon(76% 19%, 100% 61%, 100% 100%, 0 100%, 0 0);
     width: 100%;
-    height: 110vh;
+    min-height: 900px;
+    height: 120vh;
     min-width: 950px;
 }
 

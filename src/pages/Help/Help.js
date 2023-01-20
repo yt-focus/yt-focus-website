@@ -8,7 +8,7 @@ function Help () {
     return (
         <Cover>
             <div className='description-list'>
-            <Back />
+                <Back />
                 <IconDesc icon='blur-icon.svg' title='Blur Recommendations'>
                     This blurs the thumbnails of the recommendation section when watching a video.
                     This also blurs recommendations at the end of a video.
