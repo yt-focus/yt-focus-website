@@ -1,9 +1,9 @@
 import './IconDesc.css'
 
-function IconDesc ({icon, title, children}) {
+function IconDesc ({icon, title, children, style}) {
 
     return (
-        <div className='help-container'>
+        <div className='help-container' style={style}>
             <div className='desc-title-container'>
                 {icon
                  ?<img src={icon} alt={title + 'icon'}/>
