@@ -15,6 +15,9 @@ function Help () {
                 <IconDesc  title='Feedback & Reporting Bugs'>
                     You can leave feedback and report bugs on our github page. This project is open source so you are open to contribute your own changes!
                 </IconDesc>
+                <IconDesc icon='power-icon.svg' title='Power Button'>
+                    Press this to turn on and off the extension.
+                </IconDesc>
                 <IconDesc icon='blur-icon.svg' title='Blur Recommendations'>
                     This blurs the thumbnails of the recommendation section when watching a video.
                     This also blurs recommendations at the end of a video.
@@ -22,10 +25,10 @@ function Help () {
                 <IconDesc icon='greyscale-icon.svg' title='Greyscale Thumbnails'>
                     Greyscales all thumbnails on the website. This does not affect the videoplayer when watching videos.
                 </IconDesc>
-                <IconDesc icon='brightness-icon.svg' title='Brightness'>
+                <IconDesc icon='brightness-icon.svg' title='Video Brightness'>
                     Shifts the brightness of a video
                 </IconDesc>
-                <IconDesc icon='sepia-icon.svg' title='Sepia'>
+                <IconDesc icon='sepia-icon.svg' title='Video Sepia'>
                     Colors the video in a reddish hue for ease on the eyes
                 </IconDesc>
                 <IconDesc  title='Focus Homepage'>
