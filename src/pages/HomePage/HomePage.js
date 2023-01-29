@@ -34,7 +34,7 @@ function HomePage () {
                                     <IconText>Lowercase Titles</IconText>
                                 </div>
                             </div>
-                            <a href='https://github.com/yt-focus/yt-focus'>
+                            <a href='https://chrome.google.com/webstore/detail/yt-focus-learning-made-ea/fdekaebckbnpgafknooinjcnelmlhiip'>
                                 <div className='download-button'>
                                     <img src='chrome-icon.png' alt='chrome-icon'/>
                                     <div>start learning</div>
