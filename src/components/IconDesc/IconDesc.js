@@ -9,9 +9,9 @@ function IconDesc ({icon, title, children, style}) {
                  ?<img src={icon} alt={title + 'icon'}/>
                  :<div className='alt-img'/>
                 }
-                {title && <div className='desc-title'>{title + ":"}</div>}
+                {title && <div style={style} className='desc-title'>{title + ":"}</div>}
             </div>
-            <div className='help-desc'>
+            <div className='help-desc' style={style}>
                 { "- " + children}
             </div>
         </div>

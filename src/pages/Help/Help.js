@@ -9,11 +9,11 @@ function Help () {
         <Cover>
             <div className='description-list'>
                 <Back />
-                <IconDesc  title='Known Issues'>
-                    In case of any visual glitches, or functions not working: refresh the page or turn on and off the toggle button on the top right. This is due to how Youtube may load during your first use.
+                <IconDesc  style={{color: '#ffb3b3'}} title='Known Issues'>
+                    In case of any bugs: refresh the page or turn on and off the power button. You can report any bugs you find on our Github, thank you!
                 </IconDesc>
-                <IconDesc  title='Feedback & Reporting Bugs'>
-                    You can leave feedback and report bugs on our github page. This project is open source so you are open to contribute your own changes!
+                <IconDesc  title='Feedback Welcomed'>
+                    You can leave feedback on our Github page. This project is open source so you are open to contribute your own changes!
                 </IconDesc>
                 <IconDesc icon='power-icon.svg' title='Power Button'>
                     Press this to turn on and off the extension.
