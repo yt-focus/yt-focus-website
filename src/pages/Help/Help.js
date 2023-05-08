@@ -10,7 +10,11 @@ function Help () {
             <div className='description-list'>
                 <Back />
                 <IconDesc  style={{color: '#ffb3b3'}} title='Known Issues'>
-                    In case of any bugs: refresh the page or turn on and off the power button. You can report any bugs you find on our Github, thank you!
+                    Hide shorts: will cause subscription page to not load (You could look at this as an intended "feature").
+                </IconDesc>
+                <IconDesc  style={{color: '#ffb3b3',marginTop: '-1rem'}} title=''>
+                In case of any bugs: refresh the page or turn on and off the power button. You can report any bugs you find on our Github, thank you!
+                
                 </IconDesc>
                 <IconDesc  title='Feedback Welcomed'>
                     You can leave feedback on our Github page. This project is open source so you are open to contribute your own changes!

@@ -19,6 +19,7 @@
 
 .footer a {
     text-decoration: underline;
+    color: var(--light-text);
 }
 
 
