@@ -15,7 +15,7 @@ function Privacy () {
                 <IconDesc title='Third Party Services' >
                     YT-Focus uses Chrome (Chromium) or WebExtensions Storage Sync API to store user settings, and browser's Web Storage API (localStorage) to store Developer Tools fixes. For users of YT-Focus for Safari, settings are stored in the User's defaults database, and purchases are handled by iTunes.
                 </IconDesc>
-                <IconDesc style={{ marginTop: '-3rem' }}>
+                <IconDesc style={{ marginTop: '-1rem' }}>
                     Donations to YT-Focus are processed by Open Collective and their chosen payment processors, Stripe and PayPal.
                 </IconDesc>
                 <IconDesc title='Website Data' >
