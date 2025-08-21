@@ -44,6 +44,14 @@ function Help () {
                 <IconDesc  title='Hide Recommendation'>
                     Hides all recommendations when watching a video. (best used with theatre mode)
                 </IconDesc>
+                <IconDesc  title='Hide Shorts'>
+                    Hides all shorts in the browsing experience.
+                </IconDesc>
+                <IconDesc  title='Shorts Timer'>
+                    Displays a timer while watching shorts. Depending on if the comments are turned on or
+                    if the screen is too small, the timer will display over the video; However, its colors
+                    are inverted against the background to ensure visibility.
+                </IconDesc>
                 <IconDesc  title='Lowercase Titles'>
                     Lowercases all titles to combat click-bait or annoying jarring titles that go LOOK AT ME!!!
                 </IconDesc>
